@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Contact Form</h1>
+      </header>
+
+      <form action="">
+        <input
+          autofocus
+          class="uppercase inputblock"
+          type="text"
+          placeholder="Your name"
+          name="name"
+        />
+        <input
+          class="uppercase inputblock"
+          type="text"
+          placeholder="Your email address"
+          name="email"
+        />
+        <div class="company-phone">
+          <input
+            class="uppercase inputblock company-phone-children"
+            type="text"
+            placeholder="company"
+            name="company"
+            uppercase
+          />
+          <input
+            class="uppercase inputblock company-phone-children"
+            type="text"
+            placeholder="phone"
+            name="phone"
+            pattern="[0-9]"
+            maxlength="12"
+          />
+        </div>
+        <div class="clear"></div>
+
+        <textarea
+          class="uppercase inputblock"
+          rows="4"
+          cols="50"
+          placeholder="your message"
+        ></textarea>
+        <button class="uppercase">send message</button>
+      </form>
+
+      <!--aside section-->
+      <aside class="uppercase aside">
+        <p class="asideheader">you can find us here</p>
+
+        <div class="asideheaderfootter">
+          <p>sample address. sample street. 123/45</p>
+        </div>
+        <a href="#" target="_blank" class="uppercase"> or on maps</a>
+        <ul>
+          <li>+3 (000) 1023 5552</li>
+          <li>+3 (000) 0465 5322</li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
