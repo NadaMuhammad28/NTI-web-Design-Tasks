@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.custom-height {
+  height: 100px;
+}
+
+.icon-bar {
+  background-color: #1d1c1c;
+}
+
+.facebook-icon {
+  margin: 3% 4%;
+  float: right;
+  width: 40px;
+  color: #f7f7f7;
+  font-weight: bold;
+  height: 50px;
+  font-size: 40px;
+}
